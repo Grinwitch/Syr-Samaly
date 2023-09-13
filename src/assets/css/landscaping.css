@@ -1,0 +1,52 @@
+.landscaping {
+    width: 100%;
+    padding: 70px 0;
+    object-fit: cover;
+}
+
+.landscaping__content {
+    width: 100%;
+}
+
+.landscaping__suptitle {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.landscaping__content-descr {
+    margin-bottom: 25px;
+    width: 60%;
+    line-height: 140%;
+}
+
+.landscaping-content__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.landscaping-content__item {
+    height: 100%;
+    width: 33.33333%;
+}
+
+.landscaping-content__item-img {
+    max-height: 403px;
+    object-fit: cover;
+}
+
+.landscaping-content__item-title {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #09183b;
+}
+
+.landscaping-content__item-text {
+    margin-top: 25px;
+    line-height: 140%;
+}
+
+
+

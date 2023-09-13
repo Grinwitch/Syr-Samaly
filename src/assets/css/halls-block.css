@@ -1,0 +1,41 @@
+.halls {
+    width: 100%;
+    padding: 70px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.halls__content {
+    position: relative;
+    z-index: 8;
+}
+
+.halls__content-descr {
+    max-width: 800px;
+    line-height: 140%;
+}
+
+.halls-content__gallery {
+    margin-top: 25px;
+    background: #fff;
+    position: relative;
+    z-index: 8;
+}
+
+.halls__background-left-img,
+.halls__background-right-img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 4;
+}
+
+.halls__background-left-img {
+    left: -140px;
+    top: -120px;
+}
+
+.halls__background-right-img {
+    right: -140px;
+    bottom: -230px;
+}

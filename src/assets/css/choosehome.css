@@ -1,0 +1,167 @@
+.choose-plan {
+    width: 100%;
+    padding: 70px 0;
+    background: #09183b;    
+    overflow: hidden;
+    position: relative;
+}
+
+.choose-plan__content {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    z-index: 7;
+}
+
+.choose-plan-content__left {
+    width: 65%;
+    position: relative;
+}
+
+.choose-plan-content__left-blocks {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.choose-plan-content__left-first-house {
+    background: #33333399;
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate3d(0, 0, 1);
+}
+
+.choose-plan-content__right {
+    background: #fff;
+    width: 35%;
+    padding: 38px 48px;
+}
+
+.choose-plan-content__right-info-title {
+    
+}
+
+.choose-plan-content__right-info-count {
+    background: linear-gradient(274.56deg, #cfa36a 9.26%, #e5be8c 79.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.choose-plan-content__right-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.choose-plan-content__right-info-block {
+    width: 100%;
+    position: relative;
+}
+
+.choose-plan-content__right-info-block:not(:last-child):before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #09183b;
+    border-radius: 6px;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.choose-plan__background-img {
+    width: auto;
+    height: auto;
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 0px;
+    right: -120px;
+}
+
+.choose-plan__figure {
+    opacity: 0;
+}
+
+.choose-plan__figure:hover {
+    opacity: 1;
+}
+
+#first-home {
+    position: absolute;
+    width: 21%;
+    height: 52%;
+    left: 42%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    z-index: 8;
+}
+
+#second-home {
+    position: absolute;
+    width: 19%;
+    height: 51%;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 7;
+}
+
+#third-home {
+    position: absolute;
+    width: 16%;
+    height: 42%;
+    left: 65.3%;
+    top: 37%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+#fourth-home {
+    position: absolute;
+    width: 15%;
+    height: 12%;
+    left: 66%;
+    top: 16%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+#fifth-home {
+    position: absolute;
+    width: 18%;
+    height: 46%;
+    left: 25%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    z-index: 7;
+}
+
+#sixth-home {
+    position: absolute;
+    width: 18%;
+    height: 19%;
+    left: 30%;
+    top: 26%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+
+#seventh-home {
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    left: 40%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}

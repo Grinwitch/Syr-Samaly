@@ -1,0 +1,126 @@
+.about-company {
+    background: #cfa36a;
+    padding: 70px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-company__content {
+    width: 100%;
+    display: flex;
+    background: #fff;
+    position: relative;
+    z-index: 7;
+}
+
+.about-company-content__left {
+    width: 75%;
+    position: relative;
+    display: flex;
+    padding: 38px 48px;
+}
+
+.about-company-content__left-photo {
+    width: 15%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #09183b;
+}
+
+.about-company-content__left-img {
+    margin-bottom: 15px;
+}
+
+.about-company-content__left-info {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.about-company-content__left-title {
+    text-transform: uppercase;
+    color: #09183b;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.about-company-content__left-descr p {
+    line-height: 160%;
+    color: #49587b;
+}
+
+.about-company-content__left-descr p:first-child {
+    margin-bottom: 15px;
+}
+
+.about-company-content__left-img {
+    width: 100%;
+    height: auto;
+}
+
+.about-company-content__right {
+    width: 25%;
+    padding: 38px 48px;
+    background: #09183b;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-company-content-right__statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.about-company-content-right__statistic-block {
+    width: 100%;
+    position: relative;
+}
+
+.about-company-content-right__statistic-block:not(:last-child):before {
+    content: '';
+    width: 83px;
+    height: 5px;
+    border-radius: 5px;
+    background: #cfa36a;
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    transform: translate(0, 50%);
+}
+
+.about-company-content-right__statistic-block-title {
+    font-weight: 900;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about-company-content-right__statistic-descr {
+    color: #fff;
+}
+
+.about-company-background-img,
+.about-company-content__right-background {
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 5;
+}
+
+.about-company-content__right-background {
+    mix-blend-mode: overlay;
+    top: -60px;
+    right: -60px;
+}
+
+.about-company-first-background {
+    left: -130px;
+    top: -130px;
+}

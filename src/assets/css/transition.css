@@ -1,0 +1,40 @@
+.apart-enter-active,
+.apart-leave-active {
+    transition: 0.35s linear;
+}
+
+.apart-enter-from {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.apart-leave-to {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-enter-active,
+.nav-leave-active {
+    transition: .35s ease-in-out;
+}
+
+.nav-enter-from,
+.nav-leave-to {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%)
+}
+
+.overlay-enter-active,
+.overlay-leave-active {
+    transition: .15s ease-in-out;
+}
+
+.overlay-enter-from,
+.overlay-leave-to {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%)
+}
+
+

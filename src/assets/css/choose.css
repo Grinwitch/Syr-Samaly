@@ -1,0 +1,25 @@
+.choose-plan {
+    width: 100%;
+}
+
+.choose-plan__content {
+    width: 100%;
+}
+
+.choose-plan-content__block {
+    width: 100%;
+    position: relative;
+}
+
+.choose-plan-content__block-img {
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.choose-plan-contnet__block-photo {
+    width: 100%;
+}
+
+
+
